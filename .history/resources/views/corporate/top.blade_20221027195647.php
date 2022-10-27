@@ -12,7 +12,7 @@
                     <p>受け取ったいいね数：{{$niceds->count()}}</p><br>
                     <p>マッチング数：{{$both_nices->count()}}</p><br>
 
-                    <p>追加予定予定</p>
+                    <p>追加</p>
 
 
                  </div>
