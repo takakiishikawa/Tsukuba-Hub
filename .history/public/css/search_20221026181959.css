@@ -1,0 +1,35 @@
+.image{
+    cursor:pointer;
+}
+
+.profModalWrapper{
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    position:fixed;
+    background:rgba(0,0,0,0.5);
+    pointer-events:none;
+    opacity:0;
+    transition:0.5s ease-out;
+}
+
+.profModalWrapper.show{
+    opacity:1;
+    pointer-events:all;
+}
+
+.profModalImage{
+    position:absolute;
+    top:100%;
+    left:100%;
+    opacity:0;
+    transition:0.5s ease-out;
+}
+.profModalImage.show{
+    opacity:1;
+}
+
+
+
+
