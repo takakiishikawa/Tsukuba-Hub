@@ -1,0 +1,17 @@
+.timeLine{
+    animation-duration: 3s;
+    animation-name: slideIn;
+    color:#a36fbd;
+  }
+
+  /* CSSアニメーションの設定 */
+  @keyframes SlideIn {
+    0% {
+      opacity: 0;/*初期状態では透明に*/
+      transform: translateX(64px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
