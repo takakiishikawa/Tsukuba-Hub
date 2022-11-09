@@ -11,11 +11,11 @@
                     </div>
                 </div>
                 <div class="p-6 bg-white border-b border-gray-200" style=text-align:center>
-                    <label>エンジニア名:</label>
+                    <label>エンジニア名：</label>
                    <span class="engineer_name">{{$both_nice->engineer_name}}</span>
                 </div>
                 <div class="p-6 bg-white border-b border-gray-200" style ="text-align:center">
-                    <label>選考段階:</label>
+                    <label>選考段階：</label>
                     <span class="selection_stage">{{$both_nice->selection_stage->selection_stage}}</span>
                  </div>
                  <div class="p-6 bg-white border-b border-gray-200">
