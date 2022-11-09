@@ -1,0 +1,16 @@
+#timeLine.appear{
+    animation-duration: 3s;
+    animation: SlideIn 1s;
+    color:#a36fbd;
+  }
+
+  @keyframes SlideIn {
+    0% {
+      opacity: 0;
+      transform: translateX(64px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
